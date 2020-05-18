@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is essentially creating your webpage using elements and tags that have intended meaning to make it both more logical and more accessible. What this boils down to is using less generic <div> tags as containers, and instead using things like <nav>, <section>, <article>, or <p>. Since these tags are specifically designed for different things, it makes your code more readable to those who might be inspecting it, and it also makes it easy for people who use screen readers or other accessibility devices to view your website.
+
 2. What are the 4 areas of the box model?
+
+Content, Padding, Border, Margin
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The "align-items" property always works on the cross axis, which runs perpendicular to the main axis. This could be horizontal or vertical depending upon how you style your page. It is NOT always one direction.
+
 4. Explain why git is valuable to a team of developers.
 
+Git allows teams of developers to see specific changes happening at various checkpoints throughout a projects life, and revert to the points in time where those changes were made. This provides developers with the ability to debug code by checking out when something was altered, as well as moving back to a version before a bug was encountered. Git also allows developers to work on different branches of the project, different people or teams could be working on specific features simultaneously. This is invaluable when it comes to making iterative changes in the design process.
+
 5. Define mobile-first design in your own words.
+
+Mobile-first design means making your website for the mobile user first, and scaling up from there. This means designing your layout to be as friendly as possible to mobile users first, since they are your main concern. From there you would scale the website up to wider and wider screen widths, changing the page to be styled differently as you go. When working on mobile-first design, you will usually be using min-width in your media queries as you move to larger screens.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
