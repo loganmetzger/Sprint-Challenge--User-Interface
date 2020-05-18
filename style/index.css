@@ -225,3 +225,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Tablet Size */
+
+@media(max-width: 500px) {
+    .header-flexbox {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .picture-break img {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-content {
+        flex-direction: column;
+        border: none;
+    }
+
+    .middle-content {
+        border: none;
+    }
+
+    .middle-content .boxes{
+        flex-direction: column;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    .text-container {
+        
+    }
+}
