@@ -279,4 +279,9 @@ footer nav a {
     footer nav {
         flex-direction: column;
     }
+
+    footer nav a {
+        font-size: 1.2rem;
+        padding: 1%;
+    }
 }
