@@ -75,11 +75,11 @@ p {
     padding-bottom: 3%;
     display: flex;
     align-items: flex-end;
-    /* align-items: center; */
 }
 
 .header-flexbox img {
     padding-right: 3%;
+
 }
 
 .top-nav {
@@ -96,6 +96,7 @@ p {
 
 .picture-break {
     padding-bottom: 2%;
+    text-align: center;
 }
 
 /* My Styling Ends */
