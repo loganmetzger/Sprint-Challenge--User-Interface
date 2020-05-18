@@ -226,7 +226,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Tablet Size */
+/* Mobile Size */
 
 @media(max-width: 500px) {
     .header-flexbox {
@@ -260,23 +260,55 @@ footer nav a {
 
 /* Middle content */
 
+    div.boxes {
+        width: 100%;
+    }
+
     .middle-content {
         border: none;
+        width: 100%;
+        margin: 0;
     }
 
     .middle-content h2 + .boxes {
         align-items: center;
+        width: 100%;
+        margin: 0;
     }
 
     .middle-content h2 {
         text-align: center;
+        width: 100%;
+        margin: 0;
     }
 
     .middle-content .boxes{
         flex-direction: column;
+        width: 100%;
+        margin: 0;
     }
 
 /* Middle content end  */
+
+/* Bottom content */
+
+    .bottom-content .text-container h2 + p {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .bottom-content .text-container {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+    }
 
     footer {
         width: 100%;
