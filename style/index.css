@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+/* General Styles End Here */
+
+.header-flexbox {
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.top-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
