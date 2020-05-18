@@ -234,9 +234,18 @@ footer nav a {
         justify-content: center;
     }
 
+    .header-flexbox img {
+        padding: 10%;
+    }
+
     .top-nav {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .top-nav a{
+        padding: 1.5%;
+        font-size: 1.2rem;
     }
 
     .picture-break img {
@@ -246,24 +255,25 @@ footer nav a {
 
     .top-content {
         flex-direction: column;
-        border: none;
+        padding-left: 2%;
     }
 
     .middle-content {
         border: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .middle-content h2 {
+        text-align: center;
     }
 
     .middle-content .boxes{
         flex-direction: column;
     }
 
-    section .bottom-content {
-        flex-direction: column;
-        flex-wrap: wrap;
+    footer {
         width: 100%;
-    }
-
-    .text-container {
     }
 
     footer nav {
