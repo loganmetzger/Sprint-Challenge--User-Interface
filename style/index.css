@@ -68,10 +68,18 @@ p {
 
 /* General Styles End Here */
 
-.header-flexbox {
-    margin: 0 auto;
-    display: flex;
+/* My Styling Starts */
 
+.header-flexbox {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: flex-end;
+    /* align-items: center; */
+}
+
+.header-flexbox img {
+    padding-right: 3%;
 }
 
 .top-nav {
@@ -85,6 +93,12 @@ p {
     text-decoration: none;
     color: black;
 }
+
+.picture-break {
+    padding-bottom: 2%;
+}
+
+/* My Styling Ends */
 
 .container {
     width: 800px;
