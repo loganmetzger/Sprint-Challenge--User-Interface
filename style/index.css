@@ -66,6 +66,45 @@ p {
     line-height: 1.4;
 }
 
+/* General Styles End Here */
+
+/* My Styling Starts */
+
+.header-flexbox {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 21%;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.header-flexbox img {
+    padding-right: 3%;
+}
+
+.top-nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 8%;
+    font-size: 0.8rem;
+}
+
+.picture-break {
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+/* My Styling Ends */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +151,48 @@ p {
     justify-content: center;
 }
 
+/* Box Coloring */
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +224,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Tablet Size */
+
+@media(max-width: 500px) {
+    .header-flexbox {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .picture-break img {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-content {
+        flex-direction: column;
+        border: none;
+    }
+
+    .middle-content {
+        border: none;
+    }
+
+    .middle-content .boxes{
+        flex-direction: column;
+    }
+
+    section .bottom-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .text-container {
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
 }
