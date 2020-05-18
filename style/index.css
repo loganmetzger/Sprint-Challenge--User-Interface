@@ -257,11 +257,16 @@ footer nav a {
         flex-direction: column;
     }
 
-    .bottom-content {
+    section .bottom-content {
         flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .text-container {
-        
+    }
+
+    footer nav {
+        flex-direction: column;
     }
 }
