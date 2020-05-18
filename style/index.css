@@ -258,10 +258,14 @@ footer nav a {
         padding-left: 2%;
     }
 
+/* Middle content */
+
     .middle-content {
         border: none;
-        width: 100%;
-        justify-content: center;
+    }
+
+    .middle-content h2 + .boxes {
+        align-items: center;
     }
 
     .middle-content h2 {
@@ -271,6 +275,8 @@ footer nav a {
     .middle-content .boxes{
         flex-direction: column;
     }
+
+/* Middle content end  */
 
     footer {
         width: 100%;
