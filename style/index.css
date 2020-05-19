@@ -243,7 +243,7 @@ footer nav a {
         justify-content: center;
     }
 
-    .top-nav a{
+    .top-nav a {
         padding: 1.5%;
         font-size: 1.2rem;
     }
@@ -261,32 +261,26 @@ footer nav a {
 
 /* Middle content */
 
-    div.boxes {
-        width: 100%;
-    }
-
     .middle-content {
         border: none;
         width: 100%;
-        margin: 0;
+        margin-left: 23%;
     }
 
     .middle-content h2 + .boxes {
-        align-items: center;
         width: 100%;
         margin: 0;
     }
 
     .middle-content h2 {
-        text-align: center;
         width: 100%;
-        margin: 0;
     }
 
-    .middle-content .boxes{
+    .middle-content .boxes {
         flex-direction: column;
         width: 100%;
         margin: 0;
+        /* align-items: center; */
     }
 
 /* Middle content end  */
