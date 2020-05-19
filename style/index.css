@@ -294,19 +294,24 @@ footer nav a {
 
     .bottom-content .text-container h2 + p {
         align-items: center;
-        width: 100%;
         margin: 0;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2%;
     }
 
     .bottom-content .text-container {
         align-items: center;
-        width: 100%;
+        width: 50%;
         margin: 0;
         align-items: center;
     }
 
     section {
-        width: 100%;
+        width: 50%;
         margin: 0;
     }
 
