@@ -255,7 +255,8 @@ footer nav a {
 
     .top-content {
         flex-direction: column;
-        padding-left: 2%;
+        padding-left: 15%;
+        width: 90%;
     }
 
 /* Middle content */
@@ -295,6 +296,7 @@ footer nav a {
     .bottom-content .text-container h2 + p {
         align-items: center;
         margin: 0;
+        padding: 3%;
     }
 
     .bottom-content {
@@ -303,9 +305,14 @@ footer nav a {
         padding-left: 2%;
     }
 
+    .bottom-content h2 {
+        font-size: 1.3rem;
+        padding-top: 3%;
+    }
+
     .bottom-content .text-container {
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin: 0;
         align-items: center;
     }
