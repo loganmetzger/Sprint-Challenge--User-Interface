@@ -274,13 +274,13 @@ footer nav a {
 
     .middle-content h2 {
         width: 100%;
+        margin-left: -8%;
     }
 
     .middle-content .boxes {
         flex-direction: column;
         width: 100%;
         margin: 0;
-        /* align-items: center; */
     }
 
 /* Middle content end  */
